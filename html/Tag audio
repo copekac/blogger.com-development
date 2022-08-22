@@ -1,0 +1,18 @@
+<!--
+	ESPradio - https://espradio.ru/stream_list/
+	
+	Radio Spinner - Neoclassical Wave - https://live.radiospinner.com/nclssclwv-64
+	
+	
+	Icecast2 - https://live.radiospinner.com/
+	Radiospinner.ru - https://radiospinner.ru/
+-->
+
+<audio controls="controls" preload="none" >
+	
+	<source src="https://live.radiospinner.com/nclssclwv-64" />
+	
+	Ваш браузер не поддерживает данный формат воспроизведения.
+	Your browser does not support the audio element.
+	
+</audio>
