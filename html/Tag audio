@@ -2,7 +2,7 @@
 	ESPradio - https://espradio.ru/stream_list/
 	
 	Radio Spinner - Neoclassical Wave - https://live.radiospinner.com/nclssclwv-64
-	
+	Radio Spinner - Nature - https://live.radiospinner.com/nature-64
 	
 	Icecast2 - https://live.radiospinner.com/
 	Radiospinner.ru - https://radiospinner.ru/
@@ -12,7 +12,35 @@
 	
 	<source src="https://live.radiospinner.com/nclssclwv-64" />
 	
-	Ваш браузер не поддерживает данный формат воспроизведения.
-	Your browser does not support the audio element.
+		Ваш браузер не поддерживает данный формат воспроизведения.
+		Your browser does not support the audio element.
 	
 </audio>
+
+
+
+
+
+
+
+
+
+<!--
+	Воспроизведение аудиофайлов на HTML5
+
+	HTML5 может воспроизводить видео и, конечно, он также может воспроизводить аудиофайлы,
+	например, в формате mp3. В коде ниже реализуется минималистичный но функциональный аудиоплеер.
+-->
+
+<audio id="player" src="sound.mp3">
+	
+	Ваш браузер не поддерживает данный формат воспроизведения.
+	Your browser does not support the audio element.
+
+</audio>
+<div>
+	<button onclick="document.getElementById('player').play()">Play</button>
+	<button onclick="document.getElementById('player').pause()">Pause</button>
+	<button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
+	<button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
+</div>
